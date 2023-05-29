@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Web</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    body {
+      background-image: url("https://media.gq.com.mx/photos/5f0e28a08ceae195535f66ef/master/pass/FOTOPORTADAAok.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Gomitas Tumbadas</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="acerca de.html">Acerca</a></li>
+          <li><a href="contacto.html">Noticias</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card white">
+            <div class="card-content">
+              <span class="card-title" ></span>
+              <p>Ingresa tu Informacion para suscribirte si deseas recibir informacion sobre ofertas y envianos un mensaje </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulario de contacto -->
+      <div class="row">
+        <div class="col s12">
+          <div class="card white">
+            <div class="card-content">
+              <span class="card-title"></span>
+              <form>
+                <div class="input-field">
+                  <input id="name" type="text" class="validate">
+                  <label for="name">Nombre</label>
+                </div>
+                <div class="input-field">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                  <textarea id="message" class="materialize-textarea"></textarea>
+                  <label for="message">Mensaje</label>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                  <i class="material-icons right">send</i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+  <footer class="page-footer" style="position: fixed; bottom: 0; width: 100%;">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <p>Derechos de autor @luiscreatee 2023 Gomitas Tumbadas</p>
+          <div style="margin-top: 10px;">
+            <a href="https://twitter.com/luchito_awp" target="_blank">Twitter</a>
+            <a href="https://instagram.com/luiscreatee" target="_blank">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+    });
+  </script>
+</body>
+</html>
+ 

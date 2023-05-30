@@ -1,0 +1,18 @@
+body {
+    background-image: url("https://media.gq.com.mx/photos/5f0e28a08ceae195535f66ef/master/pass/FOTOPORTADAAok.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .small-footer {
+    height: 55px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    margin-bottom: 0px;
+  }
+  
+  .small-footer.visible {
+    visibility: visible;
+    opacity: 1;
+  }

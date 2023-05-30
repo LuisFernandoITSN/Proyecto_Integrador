@@ -5,14 +5,30 @@ body {
   }
 
   .small-footer {
-    height: 55px;
+    text-align: center;
+    height: 65px;
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
     margin-bottom: 0px;
-  }
-  
-  .small-footer.visible {
+}
+
+.small-footer.visible {
     visibility: visible;
     opacity: 1;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+  
+  .brand-logo {
+    left: 25px;
   }
